@@ -38,6 +38,18 @@ https://www.reddit.com/r/git/comments/1ajh2ll/my_favorite_alias_for_git_log/
 git push -u origin master
 ```
 
+### difference between git pull and git fetch
+
+In the simplest terms, git pull does a git fetch followed by a git merge.
+
+git fetch updates your remote-tracking branches under refs/remotes/<remote>/. This operation is safe to run at any time since it never changes any of your local branches under refs/heads.
+
+git pull brings a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+
+From the Git documentation for git pull:
+
+git pull runs git fetch with the given parameters and then depending on configuration options or command line flags, will call either git rebase or git merge to reconcile diverging branches.
+
 ### good resources:
 
 https://github.com/aashimaahuja/git-advanced
