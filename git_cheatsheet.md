@@ -50,6 +50,21 @@ From the Git documentation for git pull:
 
 git pull runs git fetch with the given parameters and then depending on configuration options or command line flags, will call either git rebase or git merge to reconcile diverging branches.
 
+
+
+### git stash
+
+This video is a tutorial on the **git stash** command, explaining how it works with live animations and real-time command execution. The key points covered include:
+
+- **Purpose of Git stash**: It allows users to temporarily save uncommitted changes and revert their working directory to a clean state.
+- **Basic usage**: Running `git stash` stores tracked changes, while `git stash list` shows saved stashes.
+- **Managing multiple stashes**: Users can name stashes (`git stash -m "name"`) and apply specific ones using `git stash pop --index`.
+- **Creating branches from stashes**: The `git stash branch` command lets users reincarnate stashed changes onto a new branch.
+- **Deleting stashes**: Commands like `git stash drop` (removes a specific stash) and `git stash clear` (removes all stashes) are explained.
+- **Handling merge conflicts**: The video briefly touches on resolving conflicts when applying stashed changes.
+
+The tutorial is structured with animations to visually demonstrate how Git stash operates under the hood. If you're interested in Git workflow optimization, this video provides a clear and engaging breakdown! You can watch it [here](https://www.youtube.com/watch?v=BSLzA8oCT7g).
+
 ### good resources:
 
 https://github.com/aashimaahuja/git-advanced
