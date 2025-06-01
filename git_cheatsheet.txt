@@ -7,10 +7,15 @@ git config --list --show-origin
 git status
 git add .
 
-git add, commit and push commands in one?
+### alias for log git add, commit and push commands in one?
 git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
 https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
 Usage: git cmp "Long commit message goes here"
+
+
+### alias for log
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 
 
 
