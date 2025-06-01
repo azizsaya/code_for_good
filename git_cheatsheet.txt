@@ -4,3 +4,15 @@ git remote -v
 git config --global user.name "Aziz Saya"
 git config --global user.email "azizsaya@gmail.com"
 git config --list --show-origin
+git status
+git add .
+
+git add, commit and push commands in one?
+git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
+Usage: git cmp "Long commit message goes here"
+
+
+
+Good resources:
+https://github.com/aashimaahuja/git-advanced
