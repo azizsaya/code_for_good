@@ -1,0 +1,6 @@
+git clone https://github.com/azizsaya/code_for_good.git
+git remote -v
+git remote -v
+git config --global user.name "Aziz Saya"
+git config --global user.email "azizsaya@gmail.com"
+git config --list --show-origin
