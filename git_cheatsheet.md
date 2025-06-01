@@ -1,3 +1,5 @@
+
+### basic set-up
 ```bash
 git clone https://github.com/azizsaya/code_for_good.git
 git remote -v
@@ -17,6 +19,7 @@ git init
 git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
 ```
 https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
+
 Usage: ```bash git cmp "Long commit message goes here" ```
 
 
@@ -26,6 +29,7 @@ Usage: ```bash git cmp "Long commit message goes here" ```
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 ```
 Usage: ```bash git lg ```
+
 https://www.reddit.com/r/git/comments/1ajh2ll/my_favorite_alias_for_git_log/
 
 
