@@ -38,5 +38,6 @@ https://www.reddit.com/r/git/comments/1ajh2ll/my_favorite_alias_for_git_log/
 git push -u origin master
 ```
 
-good resources:
+### good resources:
+
 https://github.com/aashimaahuja/git-advanced
